@@ -1,5 +1,5 @@
 const dotenv = require("dotenv").config();
-var NsApiWrapper = require("./netsuite-rest.js");
+var NsApiWrapper = require("./netsuite-rest.ts");
 
 describe("Netsuite Rest Webservices", () => {
   jest.setTimeout(10000);

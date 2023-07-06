@@ -13,12 +13,13 @@
   "author": "Muhammad Ahmed <a@ehmad11.com> (https://ehmad11.com/)",
   "homepage": "https://github.com/ehmad11/netsuite-rest#readme",
   "bugs": "https://github.com/ehmad11/netsuite-rest/issues",
-  "main": "netsuite-rest.js",
+  "main": "netsuite-rest.ts",
   "dependencies": {
-    "got": "^11.8.5",
-    "oauth-1.0a": "^2.2.6"
+    "oauth-1.0a": "2.2.6",
+    "crypto-js": "4.1.1"
   },
   "devDependencies": {
+    "typescript": "^5.0.x",
     "coveralls": "^3.1.1",
     "dotenv": "^10.0.0",
     "jest": "^26.6.3"
